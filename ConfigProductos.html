@@ -370,6 +370,7 @@
             if (!error) {
                 alert("Producto creado");
                 location.reload();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
             } else {
                 alert("Error: " + error.message);
             }
